@@ -1,4 +1,8 @@
 div {
+  min-height: 400px;
+  /* width: 200px; */
+  /* padding: 50px; */
+  border: 5px solid black;
 }
 
 #first-div {
@@ -7,8 +11,30 @@ div {
 
 #second-div {
   background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+#third-div {
+  min-height: 10px;
 }
 
 p {
   background-color: #7fdbff;
+}
+
+.image-1-container {
+  width: 200px;
+  height: 600px;
+  background-color: blue;
+}
+
+.image-2-container {
+  display: inline-block;
+  min-width: 200px;
+  height: 100%;
+  background-color: blue;
+}
+
+.image-1-container img {
+  width: 100%;
 }

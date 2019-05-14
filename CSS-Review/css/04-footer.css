@@ -1,25 +1,28 @@
 /* PHASE 4: Footer */
 
 .footer {
-
+  width: 900px;
+  margin: auto;
+  background: #fff;
+  color: #aaa;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-copy {
-
+  padding: 20px;
 }
 
 .footer-links {
-
+  display: flex;
+  padding: 20px;
 }
 
 .footer-links > li {
-
-}
-
-.footer a {
-
+  padding-left: 20px;
 }
 
 .footer a:hover {
-
+  color: black;
 }
